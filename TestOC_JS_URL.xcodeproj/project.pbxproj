@@ -15,6 +15,10 @@
 		9877CD641FE0CE4A00A6FF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877CD631FE0CE4A00A6FF07 /* main.m */; };
 		9877CD6E1FE0CE4A00A6FF07 /* TestOC_JS_URLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877CD6D1FE0CE4A00A6FF07 /* TestOC_JS_URLTests.m */; };
 		9877CD791FE0CE4A00A6FF07 /* TestOC_JS_URLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877CD781FE0CE4A00A6FF07 /* TestOC_JS_URLUITests.m */; };
+		9877CD881FE0CF3900A6FF07 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877CD871FE0CF3900A6FF07 /* WebViewController.m */; };
+		9877CD8A1FE0CFF100A6FF07 /* File.html in Resources */ = {isa = PBXBuildFile; fileRef = 9877CD891FE0CFF100A6FF07 /* File.html */; };
+		9877CD8C1FE1042600A6FF07 /* JSFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 9877CD8B1FE1042600A6FF07 /* JSFile.html */; };
+		9877CD8F1FE215BF00A6FF07 /* JSCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877CD8E1FE215BF00A6FF07 /* JSCWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		9877CD741FE0CE4A00A6FF07 /* TestOC_JS_URLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOC_JS_URLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9877CD781FE0CE4A00A6FF07 /* TestOC_JS_URLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOC_JS_URLUITests.m; sourceTree = "<group>"; };
 		9877CD7A1FE0CE4A00A6FF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9877CD861FE0CF3900A6FF07 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9877CD871FE0CF3900A6FF07 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9877CD891FE0CFF100A6FF07 /* File.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = File.html; sourceTree = "<group>"; };
+		9877CD8B1FE1042600A6FF07 /* JSFile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSFile.html; sourceTree = "<group>"; };
+		9877CD8D1FE215BF00A6FF07 /* JSCWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCWebViewController.h; sourceTree = "<group>"; };
+		9877CD8E1FE215BF00A6FF07 /* JSCWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +115,17 @@
 				9877CD551FE0CE4A00A6FF07 /* AppDelegate.m */,
 				9877CD571FE0CE4A00A6FF07 /* ViewController.h */,
 				9877CD581FE0CE4A00A6FF07 /* ViewController.m */,
+				9877CD861FE0CF3900A6FF07 /* WebViewController.h */,
+				9877CD871FE0CF3900A6FF07 /* WebViewController.m */,
+				9877CD8D1FE215BF00A6FF07 /* JSCWebViewController.h */,
+				9877CD8E1FE215BF00A6FF07 /* JSCWebViewController.m */,
 				9877CD5A1FE0CE4A00A6FF07 /* Main.storyboard */,
 				9877CD5D1FE0CE4A00A6FF07 /* Assets.xcassets */,
 				9877CD5F1FE0CE4A00A6FF07 /* LaunchScreen.storyboard */,
 				9877CD621FE0CE4A00A6FF07 /* Info.plist */,
 				9877CD631FE0CE4A00A6FF07 /* main.m */,
+				9877CD8B1FE1042600A6FF07 /* JSFile.html */,
+				9877CD891FE0CFF100A6FF07 /* File.html */,
 			);
 			path = TestOC_JS_URL;
 			sourceTree = "<group>";
@@ -238,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9877CD8C1FE1042600A6FF07 /* JSFile.html in Resources */,
+				9877CD8A1FE0CFF100A6FF07 /* File.html in Resources */,
 				9877CD611FE0CE4A00A6FF07 /* LaunchScreen.storyboard in Resources */,
 				9877CD5E1FE0CE4A00A6FF07 /* Assets.xcassets in Resources */,
 				9877CD5C1FE0CE4A00A6FF07 /* Main.storyboard in Resources */,
@@ -266,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9877CD591FE0CE4A00A6FF07 /* ViewController.m in Sources */,
+				9877CD8F1FE215BF00A6FF07 /* JSCWebViewController.m in Sources */,
 				9877CD641FE0CE4A00A6FF07 /* main.m in Sources */,
 				9877CD561FE0CE4A00A6FF07 /* AppDelegate.m in Sources */,
+				9877CD881FE0CF3900A6FF07 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
